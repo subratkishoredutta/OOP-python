@@ -41,7 +41,7 @@ class member:
     @classmethod
     def toarg(cls,string):
         name,session=string.split('-')
-        return member(name,session)
+        return cls(name,session)
 
 mem1=member('subrat',2020)   
 mem2=member('ruchita',2020)
